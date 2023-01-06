@@ -14,7 +14,6 @@ for row in data.itertuples():
 
     y, sr = row.npArr, 4000
 
-    #change code below with the code i send in e-mail
     def make_image(data, outputname, size=(1, 1), dpi=80):
         fig = plt.figure()
         ax = plt.Axes(fig, [0., 0., 1., 1.])
